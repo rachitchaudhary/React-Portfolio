@@ -4,6 +4,9 @@ import slide1 from '../../assets/img/carousal/slide1.webp'
 import slide2 from '../../assets/img/carousal/slide2.webp'
 import slide3 from '../../assets/img/carousal/slide3.webp'
 import './my-carousal.style.css'
+import ScrollDown from '../scroll-down/scroll-down.component';
+
+
 const MyCarousal = () => {
     return (
         <div id="home">
@@ -31,6 +34,7 @@ const MyCarousal = () => {
 
                 </Carousel.Item>
             </Carousel>
+            <ScrollDown/>
         </div>
     )
 }
