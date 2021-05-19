@@ -1,31 +1,12 @@
-.logo {
-  width: 45%;
-}
-
-.nav-theme {
-  background-color: #101018f8;
-  font-size: 20px;
-}
-
-.animate-navbar {
-  box-shadow: 1px 1px 1px #222;
-  animation: moveDown 0.5s ease-in-out;
-}
-
 .component {
-  --offset: var(--space);
-  position: sticky;
-  top: var(--offset);
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  background-color: #101018f8;
+  position: fixed;
+  right: 2%;
+  top: 15%;
 }
 
-.component .content {
-  max-height: 500px;
-  overflow-y: auto;
+ul.sidebar{
+  list-style-type:none;
 }
-
 @keyframes moveDown {
   from {
     transform: translateY(-5rem);

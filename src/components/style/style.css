@@ -1,0 +1,66 @@
+
+.centered {
+position: absolute;
+top: 15%;
+left: 50%;
+transform: translate(-50%, -50%);
+color:white;
+text-align: center;
+}
+.img {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.year{
+    float:right; font-size:18px; margin-right:25px;
+}
+.degreeName{
+    font-size: 17px
+}
+.degreeMarks{
+    float:right; font-size:15px; margin-right:25px;
+}
+.main{
+  border-color: teal;
+}
+.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22%;
+  height: 40%;
+  border-radius: 50%;
+  border-width: thick;
+  border-style: solid;
+}
+.heading{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  float:initial;
+}
+ul.rcol{
+  list-style-type:none;
+}
+.lcol{
+  font-size: 28px;
+  text-align: left;
+  float: left;
+  width: 30%;
+  font-weight: bold;
+
+}
+.rcol{
+  font-size: 22px;
+  float: right;
+  width: 70%;
+}
+.resume{
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 15%;
+}
