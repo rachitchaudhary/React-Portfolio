@@ -4,6 +4,12 @@
   top: 15%;
 }
 
+@media only screen and (max-width: 600px) {
+  .component {
+    display: none;
+  }
+}
+
 ul.sidebar{
   list-style-type:none;
 }

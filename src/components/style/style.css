@@ -16,13 +16,13 @@ text-align: center;
   margin: auto;
 }
 .year{
-    float:right; font-size:18px; margin-right:25px;
+    float:right; font-size:1.5vw; margin-right: 2%;
 }
 .degreeName{
-    font-size: 17px
+    font-size: 1.25vw;
 }
 .degreeMarks{
-    float:right; font-size:15px; margin-right:25px;
+    float:right; font-size:1.5vw; margin-right: 2%;
 }
 .main{
   border-color: teal;
@@ -38,7 +38,7 @@ text-align: center;
   border-style: solid;
 }
 .heading{
-  font-size: 32px;
+  font-size: 3.5vw;
   font-weight: bold;
   text-align: center;
   float:initial;
@@ -47,7 +47,7 @@ ul.rcol{
   list-style-type:none;
 }
 .lcol{
-  font-size: 28px;
+  font-size: 3vw;
   text-align: left;
   float: left;
   width: 30%;
@@ -55,7 +55,7 @@ ul.rcol{
 
 }
 .rcol{
-  font-size: 22px;
+  font-size: 1.75vw;
   float: right;
   width: 70%;
 }
@@ -63,4 +63,13 @@ ul.rcol{
   width: 75%;
   margin-left: 10%;
   margin-right: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
 }

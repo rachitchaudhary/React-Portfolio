@@ -14,20 +14,20 @@ const Work = () => {
                     <td className="rcol">
                         <br />
                         <p>Amdocs/ Software Engineering Associate
-          <span className='year'>August 2020 - Present</span>
+          <span className='year'>08/2020 - Present</span>
                             <br />
                             <span className='degreeName'>
                                 <ul>
                                     <li>Working as a Backend Developer in Product Customization Team</li>
                                     <li>Designed and implemented multiple Restful Web Services</li>
-                                    <li>Created a Java Application to automated Metadata modelling hence reducing    time by 91%</li>
+                                    <li>Developed a Java Application that automates Metadata modelling hence reducing Developer's time by 91%</li>
                                     <li>Wrote PL/SQL scripts for the product</li>
                                     <li>Tech Stack: Java, SpringBoot, Oracle DB, PL/SQL, Maven, Perforce</li>
                                 </ul>
                             </span>
                         </p>
-                        <p>Bharti Airtel Ltd./ Software Developer Intern
-          <span className='year'>January 2020 - June 2020</span>
+                        <p>Airtel/ Software Developer Intern
+          <span className='year'>01/2020 - 06/2020</span>
                             <br />
                             <span className='degreeName'>
                                 <ul>
@@ -37,7 +37,7 @@ const Work = () => {
                             </span>
                         </p>
                         <p>FIS Global/ Business analyst Intern
-          <span className='year'>June 2018 - July 2018</span>
+          <span className='year'>06/2018 - 07/2018</span>
                             <br />
                             <span className='degreeName'>
                                 <ul>
