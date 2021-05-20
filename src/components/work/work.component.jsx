@@ -62,7 +62,7 @@ const Work = () => {
             <span className='year'>2016</span>
                             <br />
                             <span className='degreeName'>class XII from P.S.E.B.</span>
-                            <span className='degreeMarks'>Percentage: 85.3%</span>
+                            <span className='degreeMarks'>85.3%</span>
                         </p>
                         <p>B.D.P.S., Patiala
               <span className='year'>2014</span>
