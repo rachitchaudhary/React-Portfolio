@@ -4,7 +4,7 @@ import CardDeck from "react-bootstrap/CardDeck";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// skills
+
 import { skills } from "./skills-data";
 
 import './skills.styles.css'
@@ -17,7 +17,7 @@ const Skills = () => {
         <Row className="d-flex justify-content-around">
           {skills.map((skill, index) => (
             <Col md={4}>
-              <Card className="focus  mt-2 mb-2" className="skillCard">
+              <Card className="focus  mt-2 mb-2">
                 <Card.Body>
                   <Card.Text>
                     <span key={index}>
