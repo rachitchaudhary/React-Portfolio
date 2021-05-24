@@ -58,9 +58,9 @@ export const skills = [
   },
   {
     link: "https://www.w3schools.com/css/css_intro.asp",
-    imgAltText: "CSS 3",
+    imgAltText: "CSS",
     imgSrc: L_CSS3,
-    skillName: "CSS3",
+    skillName: "CSS",
   },
   {
     link: "https://www.tutorialspoint.com/data_structures_algorithms/algorithms_basics.htm",

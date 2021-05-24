@@ -13,20 +13,20 @@ const Work = () => {
                     </td>
                     <td className="rcol">
                         <br />
-                        <p>Amdocs/ Software Engineering Associate
+                        <span>Amdocs/ Software Engineering Associate
           <span className='year'>08/2020 - Present</span>
                             <br />
                             <span className='degreeName'>
                                 <ul>
                                     <li>Working as a Backend Developer in Product Customization Team</li>
                                     <li>Designed and implemented multiple Restful Web Services</li>
-                                    <li>Developed a Java Application that automates Metadata modelling hence reducing Developer's time by 91%</li>
+                                    <li>Contributed in development of a Java Application that automates Metadata modelling leading to reduction of Developer's working time by 90%</li>
                                     <li>Wrote PL/SQL scripts for the product</li>
                                     <li>Tech Stack: Java, SpringBoot, Oracle DB, PL/SQL, Maven, Perforce</li>
                                 </ul>
                             </span>
-                        </p>
-                        <p>Airtel/ Software Developer Intern
+                        </span>
+                        <span>Airtel/ Software Developer Intern
           <span className='year'>01/2020 - 06/2020</span>
                             <br />
                             <span className='degreeName'>
@@ -35,8 +35,8 @@ const Work = () => {
                                     <li>Tech Stack: Java, SQL</li>
                                 </ul>
                             </span>
-                        </p>
-                        <p>FIS Global/ Business analyst Intern
+                        </span>
+                        <span>FIS Global/ Business analyst Intern
           <span className='year'>06/2018 - 07/2018</span>
                             <br />
                             <span className='degreeName'>
@@ -45,31 +45,7 @@ const Work = () => {
                                 </ul>
 
                             </span>
-                        </p>
-                        <hr />
-                    </td>
-                </tr>
-                <tr>
-                    <td className ='lcol'>Education</td>
-                    <td className = 'rcol'>
-                        <p>Thapar Institue Of Engineering and Technology, Patiala
-          <span className='year'>2016-2020</span>
-                            <br />
-                            <span className='degreeName'>B.E. in Electronics and Computers Engineering</span>
-                            <span className='degreeMarks'>CGPA: 7.05</span>
-                        </p>
-                        <p>V.H.R.S.S.S., Patiala
-            <span className='year'>2016</span>
-                            <br />
-                            <span className='degreeName'>class XII from P.S.E.B.</span>
-                            <span className='degreeMarks'>85.3%</span>
-                        </p>
-                        <p>B.D.P.S., Patiala
-              <span className='year'>2014</span>
-                            <br />
-                            <span className='degreeName'>class X from C.B.S.E.</span>
-                            <span className='degreeMarks'>CGPA: 8.8</span>
-                        </p>
+                        </span>
                         <hr />
                     </td>
                 </tr>
