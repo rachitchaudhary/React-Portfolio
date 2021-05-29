@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <div className="skillsContainer" id="skills">
       <h1 className="heading">Skills</h1>
-      <CardDeck>
+      <CardDeck className="cardContainer">
         <Row className="d-flex justify-content-around">
           {skills.map((skill, index) => (
             <Col md={4}>

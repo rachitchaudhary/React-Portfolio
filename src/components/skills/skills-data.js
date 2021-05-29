@@ -8,8 +8,6 @@ import L_EXPRESS from '../../assets/img/skills/express.svg';
 import L_REACT from '../../assets/img/skills/react.svg';
 import L_PLSQL from '../../assets/img/skills/pl-sql.svg';
 import L_DBMS from '../../assets/img/skills/db.jpg';
-import L_GIT from '../../assets/img/skills/github.svg';
-import L_P4 from '../../assets/img/skills/p4.png';
 import L_DSA from '../../assets/img/skills/dsa.png';
 import L_MONGO from '../../assets/img/skills/mongodb.svg';
 export const skills = [
@@ -85,15 +83,5 @@ export const skills = [
     imgAltText: "MongoDB",
     imgSrc: L_MONGO,
     skillName: "MongoDB",
-  }, {
-    link: "https://github.com/",
-    imgAltText: "Github",
-    imgSrc: L_GIT,
-    skillName: "Github",
-  }, {
-    link: "https://www.perforce.com/",
-    imgAltText: "Perforce",
-    imgSrc: L_P4,
-    skillName: "Perforce",
   }
 ];

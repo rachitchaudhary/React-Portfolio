@@ -15,7 +15,6 @@ const MyNavbar = () => {
         window.onscroll = () => {
 
             var Scroll = $(window).scrollTop() + 1 + $(window).height()/2,
-            homeOffset = $('#home').offset().top,
 			workOffSet = $('#work').offset().top, 
             educationOffset = $('#education').offset().top,
             projectsOffset = $('#projects').offset().top,
