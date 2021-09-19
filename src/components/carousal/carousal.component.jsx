@@ -8,7 +8,7 @@ import ScrollDown from '../scroll-down/scroll-down.component';
 
 const MyCarousal = () => {
     return (
-        <div id="home">
+        <div id="home" className = 'corousal'>
             <Carousel controls ={false} indicators interval={2500} >
                 <Carousel.Item>
                     <img

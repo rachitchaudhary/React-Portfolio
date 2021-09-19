@@ -8,6 +8,7 @@ const MyTitleMessage = styled.h1`
   top: 22rem;
   z-index: 1;
   margin-top: -125px;
+  margin-left: -250px;
   text-align: center;
 
   strong {
@@ -19,15 +20,19 @@ const MyTitleMessage = styled.h1`
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
-
+    
     .main {
       font-size: 50px;
+      overflow-y: hidden
     }
 
     .sub {
       font-size: 27px;
       letter-spacing: 2px;
     }
+  }
+  @media (max-width:992px){
+    margin-left: 0;
   }
 `;
 
