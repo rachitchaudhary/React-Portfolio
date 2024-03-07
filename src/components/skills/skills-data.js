@@ -10,6 +10,9 @@ import L_PLSQL from '../../assets/img/skills/pl-sql.svg';
 import L_DBMS from '../../assets/img/skills/db.jpg';
 import L_DSA from '../../assets/img/skills/dsa.png';
 import L_MONGO from '../../assets/img/skills/mongodb.svg';
+import L_KAFKA from '../../assets/img/skills/kafka.svg';
+import L_KUBERNETES from '../../assets/img/skills/kubernetes.svg';
+import L_ELASTIC from '../../assets/img/skills/elastic.svg';
 export const skills = [
 
   {
@@ -83,5 +86,23 @@ export const skills = [
     imgAltText: "MongoDB",
     imgSrc: L_MONGO,
     skillName: "MongoDB",
+  },
+  {
+    link: "https://kafka.apache.org/",
+    imgAltText: "Apache Kafka",
+    imgSrc: L_KAFKA,
+    skillName: "Apache Kafka",
+  },
+  {
+    link: "https://www.mongodb.com/",
+    imgAltText: "Kubernetes",
+    imgSrc: L_KUBERNETES,
+    skillName: "Kubernetes",
+  },
+  {
+    link: "https://www.elastic.co/",
+    imgAltText: "Elasticsearch",
+    imgSrc: L_ELASTIC,
+    skillName: "Elasticsearch",
   }
 ];
